@@ -1,0 +1,13 @@
+## basic
+# aws profile name that you resister through aws-configure command `aws configure --profile PROFILE_NAME`
+AWS_PROFILE="default"
+# stack prefix of cloudformation
+CFN_STACK_PREFIX="Input your cfn stack name prefix"
+# s3 bucket name that is used to deploy lambda functions
+BUCKET_PARAM=your_s3_bucket_parameter
+S3_BUCKET_NAME_FOR_SAM_PACKAGE="Input your s3 bucket name for deploy"
+# lambda function name and payloads
+PAYLOADS="Input your payload with string ex. {"key1":"value1", "key2":"value2", "key3":"value3"}"
+FUNCTION_NAME=your_function_name
+ZIP_FILE=your_path_to_zip ex.fileb://src/lambda.zip
+LOG_FILE=your_log_file

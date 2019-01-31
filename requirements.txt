@@ -1,0 +1,7 @@
+npm
+pyyaml
+jsonschema
+aws-requests-auth
+requests_aws4auth
+pyjwt
+requests
