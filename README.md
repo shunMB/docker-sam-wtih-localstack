@@ -67,7 +67,7 @@ Later
 
 ## Create Lambda function
 ```bash
-$ sh scripts/;local_operation/create_lambda.sh
+$ sh scripts/local_operation/create_lambda.sh
 ```
 
 ## Invoke Lambda function 
